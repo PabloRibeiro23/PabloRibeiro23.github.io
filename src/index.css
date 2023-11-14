@@ -82,7 +82,7 @@ section {
 }
 
 .background1{
-    background-image: url('assets/vector-background.svg');
+    background-image: url('./images/vector-background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -335,7 +335,7 @@ form {
 }
 
 .background2{
-    background-image: url('assets/vector-background.svg');
+    background-image: url('./images/vector-background.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
