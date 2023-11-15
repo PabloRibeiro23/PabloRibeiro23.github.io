@@ -7,7 +7,7 @@ export default function Section1() {
                     <h1 className="section1--h1 main-text">Hi! <br /> My name is <span className="color-mainPurple">Pablo</span></h1>
                     <p className="section1--p"><span className="color-mainPurple">Junior Frontend Developer</span>, who aims to create compositions that are aesthetically <span className="color-mainPurple">pleasing and easy</span> to understand for all audiences.</p>
                 </div>
-                <img className="section1--decoration" src="../src/assets/squares-component.png" alt="" />
+                <img className="section1--decoration" src="./images/squares-component.png" alt="" />
             </div>
             <div className="section1--iconsContainer">
                 <div className="section1--icon">
