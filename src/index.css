@@ -166,6 +166,14 @@ section {
     margin: 5rem auto 1rem auto;
 }
 
+@media (max-width: 768px) {
+    .section1--iconsContainer{
+        margin: 1rem -1rem;
+        padding: 0;
+        justify-content: space-evenly;
+    }
+}
+
 .section1--icon {
     width: 60px;
     height: 60px;
@@ -220,6 +228,21 @@ section {
     grid-row-gap: 1rem;
     margin: 1rem auto;
     align-items: center;
+ }
+
+ @media (min-width: 768px) and (max-width: 962px) {
+     .section2--imgContainer{
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        min-height: 1000px;
+     }
+     .img-pizza {
+        padding-top: 30rem;
+        padding-bottom: 10rem;
+     }
  }
 
  @media (max-width: 768px) {

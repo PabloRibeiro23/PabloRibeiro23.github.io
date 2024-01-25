@@ -1,5 +1,5 @@
 import { saveAs } from "file-saver";
-import pabloRibeiroResumePDF from "../CV/pabloRibeiroResume.pdf"
+import pabloRibeiroResumePDF from "../CV/pabloRibeiroResume-Es-En.pdf"
 export const SaveCV = async() => {
       try {
         const response = await fetch(pabloRibeiroResumePDF);
